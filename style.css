@@ -1,0 +1,131 @@
+/* styles.css */
+
+.container {
+    color: white;
+    background-color: #1F2937;
+    flex: auto;
+    width: 100%;
+    height: 60vh;
+    padding: 0;
+    margin-top: 0;
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+    padding: 0px;
+    display: inline;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    justify-content: right;
+    margin-left: 100px;
+    margin-right: ;
+    width: 0px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-top: -50px;
+    margin-left: 120px;
+}
+
+.link {
+    display: flex;
+    margin-left: 75%;
+    margin-top: -110px;
+    padding: ;
+}
+
+.awesome {
+    flex: auto;
+    margin-top: 200px;
+    margin-left: 300px;
+    border: 0;
+}
+
+welcome h1 {
+    font-size: 48px;
+}
+
+welcome p {
+    font-size: 18px;
+    margin-left: 125px;
+    margin-top: -30px;
+}
+
+.image1 {
+    width: 600px;
+    margin-left: 650px;
+    margin-top: -200px;   
+}
+
+.signup1 {
+    padding: 12px;
+    width: 200px;
+    font-size: 24px;
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    outline: none;
+    border-radius: 40px;
+    margin-left: 230px;
+}
+
+.info {
+    justify-content: center;
+    align-items: center;
+    margin-left: 43%;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.flexbox-item-1 {
+    flex-direction: row;
+    text-align: center;
+}
+
+.happy {
+    width: 200px;
+    height: 200px;
+}
+
+.sad {
+    width: 200px;
+    height: 200px;
+}
+
+.angry {
+    width: 200px;
+    height: 200px;
+}
+
+.monkey {
+    width: 200px;
+    height: 200px;
+}
+
+.text {
+    margin-top: 225px;
+    margin-left:;
+}
+
+.info {
+    font-size: 36px;
+}
