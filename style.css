@@ -1,13 +1,15 @@
 /* styles.css */
 
+body {
+    margin: 0;
+}
+
 .container {
     color: white;
     background-color: #1F2937;
     flex: auto;
     width: 100%;
     height: 60vh;
-    padding: 0;
-    margin-top: 0;
 }
 
 .logo {
@@ -57,6 +59,7 @@ h1 {
 
 welcome h1 {
     font-size: 48px;
+    font-weight: 900;
 }
 
 welcome p {
@@ -89,43 +92,57 @@ welcome p {
     margin-left: 43%;
 }
 
-.flexbox-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    margin: 20px;
+.card-wrapper {
+    
 }
 
-.flexbox-item-1 {
-    flex-direction: row;
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
     text-align: center;
 }
 
-.happy {
-    width: 200px;
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card-image {
     height: 200px;
-}
-
-.sad {
     width: 200px;
-    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid #3882F6;
 }
 
-.angry {
-    width: 200px;
-    height: 200px;
+.card-text {
+    text-align: center;
+    margin-top: -15px;
 }
 
-.monkey {
-    width: 200px;
-    height: 200px;
+.quote-wrapper {
+    background-color: #E5E7EB;
 }
 
-.text {
-    margin-top: 225px;
-    margin-left:;
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    
 }
 
-.info {
+.quote-text {
     font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-weight: 900;
+    align-self: flex-end;
 }
